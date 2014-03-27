@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7255FA2F18E3B2CB00ABA236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7255FA2E18E3B2CB00ABA236 /* Foundation.framework */; };
+		7255FA3118E3B2CB00ABA236 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7255FA3018E3B2CB00ABA236 /* CoreGraphics.framework */; };
+		7255FA3318E3B2CB00ABA236 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7255FA3218E3B2CB00ABA236 /* UIKit.framework */; };
+		7255FA3918E3B2CB00ABA236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7255FA3718E3B2CB00ABA236 /* InfoPlist.strings */; };
+		7255FA3B18E3B2CB00ABA236 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7255FA3A18E3B2CB00ABA236 /* main.m */; };
+		7255FA3F18E3B2CB00ABA236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7255FA3E18E3B2CB00ABA236 /* AppDelegate.m */; };
+		7255FA4518E3B2CB00ABA236 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7255FA4418E3B2CB00ABA236 /* ViewController.m */; };
+		7255FA4718E3B2CB00ABA236 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7255FA4618E3B2CB00ABA236 /* Images.xcassets */; };
+		7255FA4E18E3B2CC00ABA236 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7255FA4D18E3B2CC00ABA236 /* XCTest.framework */; };
+		7255FA4F18E3B2CC00ABA236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7255FA2E18E3B2CB00ABA236 /* Foundation.framework */; };
+		7255FA5018E3B2CC00ABA236 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7255FA3218E3B2CB00ABA236 /* UIKit.framework */; };
+		7255FA5818E3B2CC00ABA236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7255FA5618E3B2CC00ABA236 /* InfoPlist.strings */; };
+		7255FA5A18E3B2CC00ABA236 /* JXDExpandableTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7255FA5918E3B2CC00ABA236 /* JXDExpandableTableViewTests.m */; };
+		72C7FBA218E3B48B005BCF43 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7FBA118E3B48B005BCF43 /* Model.m */; };
+		72C7FBA518E3B499005BCF43 /* SubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7FBA418E3B499005BCF43 /* SubModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7255FA5118E3B2CC00ABA236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7255FA2318E3B2CB00ABA236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7255FA2A18E3B2CB00ABA236;
+			remoteInfo = JXDExpandableTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7255FA2B18E3B2CB00ABA236 /* JXDExpandableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXDExpandableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7255FA2E18E3B2CB00ABA236 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7255FA3018E3B2CB00ABA236 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7255FA3218E3B2CB00ABA236 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7255FA3618E3B2CB00ABA236 /* JXDExpandableTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JXDExpandableTableView-Info.plist"; sourceTree = "<group>"; };
+		7255FA3818E3B2CB00ABA236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7255FA3A18E3B2CB00ABA236 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7255FA3C18E3B2CB00ABA236 /* JXDExpandableTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JXDExpandableTableView-Prefix.pch"; sourceTree = "<group>"; };
+		7255FA3D18E3B2CB00ABA236 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7255FA3E18E3B2CB00ABA236 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7255FA4318E3B2CB00ABA236 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7255FA4418E3B2CB00ABA236 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7255FA4618E3B2CB00ABA236 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7255FA4C18E3B2CC00ABA236 /* JXDExpandableTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXDExpandableTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7255FA4D18E3B2CC00ABA236 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7255FA5518E3B2CC00ABA236 /* JXDExpandableTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JXDExpandableTableViewTests-Info.plist"; sourceTree = "<group>"; };
+		7255FA5718E3B2CC00ABA236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7255FA5918E3B2CC00ABA236 /* JXDExpandableTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXDExpandableTableViewTests.m; sourceTree = "<group>"; };
+		72C7FBA018E3B48B005BCF43 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		72C7FBA118E3B48B005BCF43 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		72C7FBA318E3B499005BCF43 /* SubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubModel.h; sourceTree = "<group>"; };
+		72C7FBA418E3B499005BCF43 /* SubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7255FA2818E3B2CB00ABA236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7255FA3118E3B2CB00ABA236 /* CoreGraphics.framework in Frameworks */,
+				7255FA3318E3B2CB00ABA236 /* UIKit.framework in Frameworks */,
+				7255FA2F18E3B2CB00ABA236 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7255FA4918E3B2CC00ABA236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7255FA4E18E3B2CC00ABA236 /* XCTest.framework in Frameworks */,
+				7255FA5018E3B2CC00ABA236 /* UIKit.framework in Frameworks */,
+				7255FA4F18E3B2CC00ABA236 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7255FA2218E3B2CB00ABA236 = {
+			isa = PBXGroup;
+			children = (
+				7255FA3418E3B2CB00ABA236 /* JXDExpandableTableView */,
+				7255FA5318E3B2CC00ABA236 /* JXDExpandableTableViewTests */,
+				7255FA2D18E3B2CB00ABA236 /* Frameworks */,
+				7255FA2C18E3B2CB00ABA236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7255FA2C18E3B2CB00ABA236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7255FA2B18E3B2CB00ABA236 /* JXDExpandableTableView.app */,
+				7255FA4C18E3B2CC00ABA236 /* JXDExpandableTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7255FA2D18E3B2CB00ABA236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7255FA2E18E3B2CB00ABA236 /* Foundation.framework */,
+				7255FA3018E3B2CB00ABA236 /* CoreGraphics.framework */,
+				7255FA3218E3B2CB00ABA236 /* UIKit.framework */,
+				7255FA4D18E3B2CC00ABA236 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7255FA3418E3B2CB00ABA236 /* JXDExpandableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				7255FA3D18E3B2CB00ABA236 /* AppDelegate.h */,
+				7255FA3E18E3B2CB00ABA236 /* AppDelegate.m */,
+				7255FA4318E3B2CB00ABA236 /* ViewController.h */,
+				7255FA4418E3B2CB00ABA236 /* ViewController.m */,
+				72C7FBA018E3B48B005BCF43 /* Model.h */,
+				72C7FBA118E3B48B005BCF43 /* Model.m */,
+				72C7FBA318E3B499005BCF43 /* SubModel.h */,
+				72C7FBA418E3B499005BCF43 /* SubModel.m */,
+				7255FA4618E3B2CB00ABA236 /* Images.xcassets */,
+				7255FA3518E3B2CB00ABA236 /* Supporting Files */,
+			);
+			path = JXDExpandableTableView;
+			sourceTree = "<group>";
+		};
+		7255FA3518E3B2CB00ABA236 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7255FA3618E3B2CB00ABA236 /* JXDExpandableTableView-Info.plist */,
+				7255FA3718E3B2CB00ABA236 /* InfoPlist.strings */,
+				7255FA3A18E3B2CB00ABA236 /* main.m */,
+				7255FA3C18E3B2CB00ABA236 /* JXDExpandableTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7255FA5318E3B2CC00ABA236 /* JXDExpandableTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7255FA5918E3B2CC00ABA236 /* JXDExpandableTableViewTests.m */,
+				7255FA5418E3B2CC00ABA236 /* Supporting Files */,
+			);
+			path = JXDExpandableTableViewTests;
+			sourceTree = "<group>";
+		};
+		7255FA5418E3B2CC00ABA236 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7255FA5518E3B2CC00ABA236 /* JXDExpandableTableViewTests-Info.plist */,
+				7255FA5618E3B2CC00ABA236 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7255FA2A18E3B2CB00ABA236 /* JXDExpandableTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7255FA5D18E3B2CC00ABA236 /* Build configuration list for PBXNativeTarget "JXDExpandableTableView" */;
+			buildPhases = (
+				7255FA2718E3B2CB00ABA236 /* Sources */,
+				7255FA2818E3B2CB00ABA236 /* Frameworks */,
+				7255FA2918E3B2CB00ABA236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXDExpandableTableView;
+			productName = JXDExpandableTableView;
+			productReference = 7255FA2B18E3B2CB00ABA236 /* JXDExpandableTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7255FA4B18E3B2CC00ABA236 /* JXDExpandableTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7255FA6018E3B2CC00ABA236 /* Build configuration list for PBXNativeTarget "JXDExpandableTableViewTests" */;
+			buildPhases = (
+				7255FA4818E3B2CC00ABA236 /* Sources */,
+				7255FA4918E3B2CC00ABA236 /* Frameworks */,
+				7255FA4A18E3B2CC00ABA236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7255FA5218E3B2CC00ABA236 /* PBXTargetDependency */,
+			);
+			name = JXDExpandableTableViewTests;
+			productName = JXDExpandableTableViewTests;
+			productReference = 7255FA4C18E3B2CC00ABA236 /* JXDExpandableTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7255FA2318E3B2CB00ABA236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jxdwinter;
+				TargetAttributes = {
+					7255FA4B18E3B2CC00ABA236 = {
+						TestTargetID = 7255FA2A18E3B2CB00ABA236;
+					};
+				};
+			};
+			buildConfigurationList = 7255FA2618E3B2CB00ABA236 /* Build configuration list for PBXProject "JXDExpandableTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7255FA2218E3B2CB00ABA236;
+			productRefGroup = 7255FA2C18E3B2CB00ABA236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7255FA2A18E3B2CB00ABA236 /* JXDExpandableTableView */,
+				7255FA4B18E3B2CC00ABA236 /* JXDExpandableTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7255FA2918E3B2CB00ABA236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7255FA4718E3B2CB00ABA236 /* Images.xcassets in Resources */,
+				7255FA3918E3B2CB00ABA236 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7255FA4A18E3B2CC00ABA236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7255FA5818E3B2CC00ABA236 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7255FA2718E3B2CB00ABA236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7255FA4518E3B2CB00ABA236 /* ViewController.m in Sources */,
+				72C7FBA518E3B499005BCF43 /* SubModel.m in Sources */,
+				7255FA3F18E3B2CB00ABA236 /* AppDelegate.m in Sources */,
+				7255FA3B18E3B2CB00ABA236 /* main.m in Sources */,
+				72C7FBA218E3B48B005BCF43 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7255FA4818E3B2CC00ABA236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7255FA5A18E3B2CC00ABA236 /* JXDExpandableTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7255FA5218E3B2CC00ABA236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7255FA2A18E3B2CB00ABA236 /* JXDExpandableTableView */;
+			targetProxy = 7255FA5118E3B2CC00ABA236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7255FA3718E3B2CB00ABA236 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7255FA3818E3B2CB00ABA236 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7255FA5618E3B2CC00ABA236 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7255FA5718E3B2CC00ABA236 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7255FA5B18E3B2CC00ABA236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7255FA5C18E3B2CC00ABA236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7255FA5E18E3B2CC00ABA236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JXDExpandableTableView/JXDExpandableTableView-Prefix.pch";
+				INFOPLIST_FILE = "JXDExpandableTableView/JXDExpandableTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7255FA5F18E3B2CC00ABA236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JXDExpandableTableView/JXDExpandableTableView-Prefix.pch";
+				INFOPLIST_FILE = "JXDExpandableTableView/JXDExpandableTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7255FA6118E3B2CC00ABA236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JXDExpandableTableView.app/JXDExpandableTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JXDExpandableTableView/JXDExpandableTableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JXDExpandableTableViewTests/JXDExpandableTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7255FA6218E3B2CC00ABA236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JXDExpandableTableView.app/JXDExpandableTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JXDExpandableTableView/JXDExpandableTableView-Prefix.pch";
+				INFOPLIST_FILE = "JXDExpandableTableViewTests/JXDExpandableTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7255FA2618E3B2CB00ABA236 /* Build configuration list for PBXProject "JXDExpandableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7255FA5B18E3B2CC00ABA236 /* Debug */,
+				7255FA5C18E3B2CC00ABA236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7255FA5D18E3B2CC00ABA236 /* Build configuration list for PBXNativeTarget "JXDExpandableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7255FA5E18E3B2CC00ABA236 /* Debug */,
+				7255FA5F18E3B2CC00ABA236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7255FA6018E3B2CC00ABA236 /* Build configuration list for PBXNativeTarget "JXDExpandableTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7255FA6118E3B2CC00ABA236 /* Debug */,
+				7255FA6218E3B2CC00ABA236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7255FA2318E3B2CB00ABA236 /* Project object */;
+}
